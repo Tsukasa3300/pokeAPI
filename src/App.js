@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { styled } from 'styled-components';
+import './App.css';
 
 function App() {
 
@@ -8,7 +8,8 @@ function App() {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await axios.get('https://pokeapi.co/api/v2/pokemon/6');
+      const randomId = Math.floor(Math.random() * 898) + 1;
+      const response = await axios.get(`https://pokeapi.co/api/v2/pokemon/${randomId}`);
       setPokemon(response.data);
     };
 
