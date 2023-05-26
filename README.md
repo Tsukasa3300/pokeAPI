@@ -1,1 +1,1 @@
-App.jsを参照# pokeAPI
+App.jsを参照
