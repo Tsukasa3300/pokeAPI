@@ -4,6 +4,4 @@
 # URL
 https://pokemon-pictorial-book-five.vercel.app/
 
-# 使い方
-リロードするとランダムでポケモンが表示される
 
